@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Lato", sans-serif;
+}
+
+/* Navbar */
+
+.navbar {
+    display: flex;
+}
+
+
+.list-nav {
+    list-style: none;
+}
