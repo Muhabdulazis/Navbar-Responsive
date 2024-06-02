@@ -5,15 +5,76 @@
 
 body {
     font-family: "Lato", sans-serif;
+    letter-spacing: 1px;
 }
 
 /* Navbar */
 
 .navbar {
     display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+    color: lightgrey;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+.menu-nav {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    padding-inline: 20px;
+}
+
+.logo img {
+    width: 7rem;
+}
+
+.menu-nav ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 
 .list-nav {
     list-style: none;
+    padding: 10px;
+}
+
+.list-nav a {
+    text-decoration: none;
+    color: lightgray;
+}
+
+
+.avatar-picture {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 10px;
+}
+
+.nav-extra {
+    display: flex;
+    align-items: center;
+}
+
+.nav-extra a {
+    color: lightgray;
+}
+
+
+
+/* Resposive */
+
+/* mobile */
+@media screen and ( max-width: 576px) {
+    .logo {
+        display: none;
+    }    
 }

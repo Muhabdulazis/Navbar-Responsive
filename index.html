@@ -4,26 +4,43 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Style -->
-    
-    
+    <link rel="stylesheet" href="style.css">
+
     <!-- fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
     
+    <!-- Icons -->
+    <script src="https://unpkg.com/feather-icons"></script>
+
     <title>Navbar Responsiv</title>
 </head>
 <body>
     <nav class="navbar">
-        <div class="logo">
-            chill
+        <div class="menu-nav">
+            <div class="logo">
+                <img src="Assets/Logo.png" alt="logo">
+            </div>
+            <ul>
+                <li class="list-nav"><a href="">Series</a></li>
+                <li class="list-nav"><a href="">Film</a></li>
+                <li class="list-nav"><a href="">Film Saya</a></li>
+            </ul>
         </div>
 
-        <ul>
-            <li class="list-nav"><a href="">Series</a></li>
-            <li class="list-nav"><a href="">Film</a></li>
-            <li class="list-nav"><a href="">Film Saya</a></li>
-        </ul>
+
+        <div class="nav-extra">
+            <img class="avatar-picture" src="Assets/avatar.png" alt="">
+            <a href="#menu"><i data-feather="chevron-down"></i></a>
+                       
+        </div>
     </nav>
+
+
+    <!-- Icons -->
+    <script>
+        feather.replace();
+      </script>
 </body>
 </html>
